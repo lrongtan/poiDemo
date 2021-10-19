@@ -1,5 +1,11 @@
 ${PODS_ROOT}/Target Support Files/Pods-poiDemo/Pods-poiDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework
 ${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework
+${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/RxSwiftExt/RxSwiftExt.framework
 ${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework
 ${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework
 ${BUILT_PRODUCTS_DIR}/YogaKit/YogaKit.framework

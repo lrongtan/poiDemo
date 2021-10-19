@@ -1,5 +1,24 @@
 PODS:
+  - Differentiator (4.0.1)
   - MBProgressHUD (1.2.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - RxSwiftExt (5.2.0):
+    - RxSwiftExt/Core (= 5.2.0)
+    - RxSwiftExt/RxCocoa (= 5.2.0)
+  - RxSwiftExt/Core (5.2.0):
+    - RxSwift (~> 5.0)
+  - RxSwiftExt/RxCocoa (5.2.0):
+    - RxCocoa (~> 5.0)
+    - RxSwiftExt/Core
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -9,22 +28,38 @@ PODS:
 
 DEPENDENCIES:
   - MBProgressHUD (~> 1.2.0)
+  - RxCocoa (~> 5)
+  - RxDataSources (~> 4.0)
+  - RxSwift (~> 5)
+  - RxSwiftExt (~> 5)
   - YogaKit (~> 1.7)
   - YYCategories (~> 1.0.4)
 
 SPEC REPOS:
   trunk:
+    - Differentiator
     - MBProgressHUD
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
     - Yoga
     - YogaKit
     - YYCategories
 
 SPEC CHECKSUMS:
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
   Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: eab37d52127dc4e7e33d9e9bbc2a69bcc72796d6
+PODFILE CHECKSUM: 2763a08655fcbf9a4a1f8a17afb4bab19f339d98
 
 COCOAPODS: 1.10.1
