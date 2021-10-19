@@ -13,9 +13,9 @@ target 'poiDemo' do
   pod 'RxDataSources', '~> 4.0'
 
 #高德地图
-  #pod 'AMapLocation', '~> 2.6.7'
-  #pod 'AMapSearch', '~> 6.9.0'
-  #pod 'AMapNavi', '~> 7.7.1'
+  pod 'AMapLocation', '~> 2.6.7'
+  pod 'AMapSearch', '~> 6.9.0'
+  pod 'AMapNavi', '~> 7.7.1'
 
   pod 'MBProgressHUD', '~> 1.2.0'
 
