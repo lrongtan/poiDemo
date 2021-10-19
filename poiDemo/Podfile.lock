@@ -1,0 +1,30 @@
+PODS:
+  - MBProgressHUD (1.2.0)
+  - Yoga (1.14.0)
+  - YogaKit (1.18.1):
+    - Yoga (~> 1.14)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+
+DEPENDENCIES:
+  - MBProgressHUD (~> 1.2.0)
+  - YogaKit (~> 1.7)
+  - YYCategories (~> 1.0.4)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - Yoga
+    - YogaKit
+    - YYCategories
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
+  YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+
+PODFILE CHECKSUM: eab37d52127dc4e7e33d9e9bbc2a69bcc72796d6
+
+COCOAPODS: 1.10.1

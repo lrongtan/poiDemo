@@ -1,0 +1,6 @@
+framework module Pods_poiDemo {
+  umbrella header "Pods-poiDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
